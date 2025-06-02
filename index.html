@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asra Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/6e9594ad2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header Section -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Engineering Student</p>
+            <h1>Hi, I'm <span>Asra</span><br>Begum from India</h1>
+            <p class="success-message">Welcome to my success story — turning ideas into impactful solutions!</p>
+            <a href="#portfolio" class="btn">Explore My Work</a>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bgm.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Md. Asra Begum, currently pursuing a B.Tech in Computer Science and Engineering at Malla Reddy Engineering College for Women. I’m passionate about technology and have worked on projects in AI, e-commerce, and fraud detection. My goal is to solve real-world problems using software engineering and machine learning techniques.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Languages</span><br>Java, C, Python</li>
+                        <li><span>Web Technologies</span><br>HTML, CSS</li>
+                        <li><span>Tools</span><br>VS Code, Eclipse, Jupyter Notebook</li>
+                        <li><span>Soft Skills</span><br>Communication, Teamwork, Leadership</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>May 2024 – July 2024</span><br>Intern at Black Pearls – Built Smart Shop E-commerce Platform</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022 – 2026</span><br>B.Tech, Malla Reddy Engineering College for Women</li>
+                        <li><span>2020 – 2022</span><br>Shanti Junior College – 84.5%</li>
+                        <li><span>2019 – 2020</span><br>Chaitanya Bharathi School – GPA: 10</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>Smart Shop E-commerce Platform</h2>
+                <p>Developed a user-friendly shopping platform with personalized recommendations and secure payment options.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h2>Geo-Vision Landmark Identifier</h2>
+                <p>AI-powered application that identifies landmarks and provides cultural and historical insights.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Credit Card Fraud Detection</h2>
+                <p>Implemented supervised learning models to improve detection accuracy and reduce financial losses.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Section (Text-based instead of images) -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Project Highlights</h1>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <h2>Geo-Vision</h2>
+                <p>Uses AI to identify landmarks and generate informative descriptions. Future goals include language support and accessibility enhancements.</p>
+                <span class="tech-stack">Tech: Python, AI Models, Streamlit</span>
+            </div>
+            <div class="portfolio-card">
+                <h2>Smart Shop E-commerce</h2>
+                <p>A modern shopping experience with personalized recommendations and secure transactions.</p>
+                <span class="tech-stack">Tech: HTML, CSS, Java, JDBC</span>
+            </div>
+            <div class="portfolio-card">
+                <h2>Credit Card Fraud Detection</h2>
+                <p>ML-based system to detect fraudulent activity using supervised learning and feature selection techniques.</p>
+                <span class="tech-stack">Tech: Python, Pandas, Scikit-learn</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>asra3827@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9963260881</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Asra-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <h2>Enter Details</h2>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>© Asra Begum. Made with <i class="fa-solid fa-heart"></i> ..</p>
+    </div>
+</div>
+
+<!-- Script for Tabs -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+</body>
+</html>
